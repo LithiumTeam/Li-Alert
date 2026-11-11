@@ -34,7 +34,7 @@ Icons
 ## first clone the project:
 
 ```
-git clone https://github.com/artin231/HoshangAlert.git
+https://github.com/LithiumTeam/Li-Alert.git
 ```
 ### the library files are in the HooshangAlert folder the Test Folder is just a test of it
 
