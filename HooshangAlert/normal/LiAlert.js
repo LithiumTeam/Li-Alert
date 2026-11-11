@@ -82,6 +82,6 @@ class Li{
 }
 
 
-let le = new Le();
+let li = new Li();
 
-window.le = le;
+window.li = li;
