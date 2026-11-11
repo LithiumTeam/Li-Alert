@@ -1,0 +1,10 @@
+le.Alert({theme:"custom",
+	title:'succses',
+	message:"it was succsesful",
+	icon:hooshang.Icons.succses,
+	type:"button",
+	color_icon:'green',
+	buttonMessage:'ali',
+	bg_color:'black',
+	text_color:'green',
+	border_button_color:'green'})

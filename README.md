@@ -1,0 +1,73 @@
+<div align="center">     
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9B59B6&height=150&section=header&text=Hooshang%20Alert%20%F0%9F%93%A8&fontSize=42&fontColor=FFFFFF&animation=twinkling" width="100%"/>
+
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.herokuapp.com?size=24&color=C39BD3&center=true&vCenter=true&width=600&lines=A+Great+Js+Library+%F0%9F%92%AC;For+Beautiful+Alerts;Responsive+%E2%80%A2+Modern" alt="Typing SVG"/>
+</a>
+
+<br>
+
+<h2>
+<strong>⌨️ A Js Library </strong><br>
+</h2>
+
+</div>
+
+---
+
+<div align="center">
+
+## ✨ Features
+
+2 Themes for your Alerts
+<br>
+Responsive
+<br>
+Icons    
+</div>
+
+---
+
+# how to use:
+
+## first clone the project:
+
+```
+git clone https://github.com/artin231/HoshangAlert.git
+```
+### the library files are in the HooshangAlert folder the Test Folder is just a test of it
+
+## then add this link to the css file:
+
+```
+<link rel="stylesheet" href="./the/path/to/HooshangAlert.min.css">
+```
+
+## then add the js file (Above of your js file):
+
+```
+<script src="./the/path/to/HooshangAlert.min.js"></script>
+```
+
+### and now you can use it!
+
+<a href="https://gitlab.chabokan.net/artin231/hooshangalert/-/blob/main/docs/docs.md?ref_type=heads">see the docs!<a> 
+
+---
+<div align="center">
+
+## 📜 License
+
+<p>
+This project is licensed under the
+<strong>GNU General Public License v3.0</strong>.
+</p>
+
+<p>
+Made by ➤ <a href="https://gitlab.chabokan.net/artin231">Artin231</a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9B59B6&height=120&section=footer&text=Thanks%20for%20visiting%20%F0%9F%92%9C&fontSize=28&fontColor=FFFFFF&animation=twinkling" width="100%"/>
+
+</div>
