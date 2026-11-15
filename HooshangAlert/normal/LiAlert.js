@@ -6,23 +6,33 @@ class Li{
     constructor() {
 	    this.Icons = {succses:"<i class='fa-regular fa-circle-check kiwngkwnlgn jjjjjfhrehfer'></i>",user:"<i class='fa-regular fa-circle-user kiwngkwnlgn'></i>",alert:"<i class='fa-solid fa-circle-exclamation'></i>"};
     }
-	    Alert({theme, title, message, icon, type, buttonMessage="click me",color_icon,time=2000,text_color=null,bg_color=null,border_button_color=null}) {
+	    Alert({theme, title, message, icon, type, buttonMessage="click me",color_icon,time=2000,text_color=null,bg_color=null,border_button_color=null,position=null}) {
+
+		    if(position == "center"){
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","center");
+			    document.querySelector(":root").style.setProperty("--li_alert_align","center");
+		    }else if(position == "up"){
+			    console.log(1);
+			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-start");
+		    }else if(position == "down"){
+			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-end");
+		    }
 		    if(theme=="dark"){
-			    document.querySelector(":root").style.setProperty("--box_color","#2F3032");
-			    document.querySelector(":root").style.setProperty("--color_g","white");
-			    document.querySelector(":root").style.setProperty("--border","white");
+			    document.querySelector(":root").style.setProperty("--li_alert_box_color","#2F3032");
+			    document.querySelector(":root").style.setProperty("--li_alert_color_g","white");
+			    document.querySelector(":root").style.setProperty("--li_alert_border","white");
 		    }
 		    else if(theme == "light"){
-                            document.querySelector(":root").style.setProperty("--box_color","#F5F5F5");
-			    document.querySelector(":root").style.setProperty("--color_g","black");
-			    document.querySelector(":root").style.setProperty("--border","black");
+                            document.querySelector(":root").style.setProperty("--li_alert_box_color","#F5F5F5");
+			    document.querySelector(":root").style.setProperty("--li_alert_color_g","black");
+			    document.querySelector(":root").style.setProperty("--li_alert_border","black");
 		    }else if(theme == 'custom'){
 			    if(bg_color == null || text_color == null || border_button_color == null){
 				    console.error('the bg_color and the text_color is not valid.');
                            }else{
-			 	document.querySelector(":root").style.setProperty("--box_color",bg_color);
-			    	document.querySelector(":root").style.setProperty("--color_g",text_color);
-			    	document.querySelector(":root").style.setProperty("--border",border_button_color);
+			 	document.querySelector(":root").style.setProperty("--li_alert_box_color",bg_color);
+			    	document.querySelector(":root").style.setProperty("--li_alert_color_g",text_color);
+			    	document.querySelector(":root").style.setProperty("--li_alert_border",border_button_color);
 			   
 			   }
 		   }
@@ -35,26 +45,26 @@ class Li{
 			   return;
 		   }
         	   let NewElement = `
-        		<div class='hfuewiooihegeighowhggigwrohgowrhg'>
-                		<div class='ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh ' >
+        		<div class='li_alert_main_outer_div'>
+                		<div class='li_alert_main_inner_div' >
 					${icon}
-                    			<h1 class='kiqfngioqehioghqeoihgoehogjeoighoeh'>${title}</h1>
-                    			<p class='jrwiognrowingorngorwnognorngworogbrogorn'>${message}</p>
-                    			${type == 'button' ? `<button class="avadiqegoeogeoqgboeb">${buttonMessage}</button>` : ''}
+                    			<h1 class='li_alert_main_inner_title'>${title}</h1>
+                    			<p class='li_alert_main_inner_msg'>${message}</p>
+                    			${type == 'button' ? `<button class="li_alert_main_inner_btn">${buttonMessage}</button>` : ''}
             			</div>
         		</div>
 
         `
 
         document.body.insertAdjacentHTML('afterbegin', NewElement)
-	document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg i').style.color = color_icon;
-        let MainEl = document.querySelector('.hfuewiooihegeighowhggigwrohgowrhg');
-        let AlertEl = document.querySelector('.ggbhlkfdiughwroihgowehgowehgoihewioghpewhgohwoehgoehgoh');
+	document.querySelector('.li_alert_main_outer_div i').style.color = color_icon;
+        let MainEl = document.querySelector('.li_alert_main_outer_div');
+        let AlertEl = document.querySelector('.li_alert_main_inner_div');
         setTimeout(() => {
             AlertEl.classList.add('showEvent');
         }, 100)
         try {
-            let btn = document.querySelector('.avadiqegoeogeoqgboeb');
+            let btn = document.querySelector('.li_alert_main_inner_btn');
             if (type == "button") {
                 btn.addEventListener('click', () => {
                     AlertEl.classList.remove('showEvent');

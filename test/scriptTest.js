@@ -4,7 +4,8 @@ li.Alert({theme:"custom",
 	icon:li.Icons.succses,
 	type:"button",
 	color_icon:'green',
-	buttonMessage:'ali',
+	buttonMessage:'click me!',
 	bg_color:'black',
 	text_color:'green',
-	border_button_color:'green'})
+	border_button_color:'green',
+	position:"down"})
