@@ -41,13 +41,13 @@ https://github.com/LithiumTeam/Li-Alert.git
 ## then add this link to the css file:
 
 ```
-<link rel="stylesheet" href="./the/path/to/HooshangAlert.min.css">
+<link rel="stylesheet" href="./the/path/to/LiAlert.css">
 ```
 
 ## then add the js file (Above of your js file):
 
 ```
-<script src="./the/path/to/HooshangAlert.min.js"></script>
+<script src="./the/path/to/LiAlert.js"></script>
 ```
 
 ### and now you can use it!
