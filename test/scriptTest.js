@@ -8,4 +8,4 @@ li.Alert({theme:"custom",
 	bg_color:'black',
 	text_color:'green',
 	border_button_color:'green',
-	position:"bottom-right"})
+	position:"bottom-left"})
