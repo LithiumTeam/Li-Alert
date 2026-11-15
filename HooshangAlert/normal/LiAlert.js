@@ -11,11 +11,26 @@ class Li{
 		    if(position == "center"){
 			    document.querySelector(":root").style.setProperty("--li_alert_justify","center");
 			    document.querySelector(":root").style.setProperty("--li_alert_align","center");
-		    }else if(position == "up"){
-			    console.log(1);
+		    }else if(position == "top"){
 			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-start");
-		    }else if(position == "down"){
+		    }else if(position == "bottom"){
 			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-end");
+		    }else if(position == "left"){
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","flex-start");
+	            }else if(position == "right"){
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","flex-end");
+		    }else if(position == "top-right"){
+			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-start");
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","flex-end");
+		    }else if(position == "top-left"){
+			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-start");
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","flex-start");
+		    }else if(position == "bottom-right"){
+			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-end");
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","flex-end");
+		    }else if(position == "bottom-left"){
+			    document.querySelector(":root").style.setProperty("--li_alert_align","flex-end");
+			    document.querySelector(":root").style.setProperty("--li_alert_justify","flex-start");
 		    }
 		    if(theme=="dark"){
 			    document.querySelector(":root").style.setProperty("--li_alert_box_color","#2F3032");

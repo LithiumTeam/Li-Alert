@@ -8,11 +8,13 @@
 
 .li_alert_main_outer_div * {
     margin:0;
+    box-sizing:border-box;
 }
 
 .li_alert_main_outer_div{
     margin:0;
-    padding-top:3%;
+    box-sizing:border-box;
+    padding:2%;
     width: 100%;
     height: 100vh;
     position: relative;
