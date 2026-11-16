@@ -7,7 +7,7 @@
 ## for creating a alert we must use : hooshang.AlHoosh()
 
 ```
-hooshang.AlHoosh({theme:"dark",title:'succses',message:"it was succsesful",icon:hooshang.Icons.succses,type:"button",color_icon:'#17FD32'})
+hooshang.AlHoosh({theme:"dark",title:'succses',message:"it was succsesful",icon:hooshang.Icons.succses,type:"button",color_icon:'#17FD32',position:"center"})
 ```
 
 # what the arguments do?:
@@ -81,5 +81,7 @@ hooshang.AlHoosh({theme:"custom",
 ### border_button_color : the color of the border of the button in the alert and you can use it when the theme is custom
 
 ---
+
+### position : the position of the alert . positions : center,bottom,right,left,top,bottom-left,bottom-right,top-right,top-left
 
 ## thanks for reading the docment 
