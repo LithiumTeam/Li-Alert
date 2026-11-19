@@ -1,13 +1,13 @@
-# the document of HooshangAlert :
+# the document of LithiumAlert :
 
-## first if you don't nonw to how to download hooshangAlert and import it see the main README file : <a href="https://github.com/artin231/HoshangAlert/blob/main/README.md">click me!</a>
+## first if you don't nonw to how to download LithiumAlert and import it see the main README file : <a href="https://github.com/artin231/HoshangAlert/blob/main/README.md">click me!</a>
 
 ## when you finished all of it now you can read this page
 
 ## for creating a alert we must use : hooshang.AlHoosh()
 
 ```
-hooshang.AlHoosh({theme:"dark",title:'succses',message:"it was succsesful",icon:hooshang.Icons.succses,type:"button",color_icon:'#17FD32',position:"center"})
+li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:li.Icons.succses,type:"button",color_icon:'#17FD32',position:"center"})
 ```
 
 # what the arguments do?:
@@ -27,12 +27,12 @@ hooshang.AlHoosh({theme:"dark",title:'succses',message:"it was succsesful",icon:
 ## icon : the icon of your alert we have a list of icons in : hooshang.icons and if you want the succses one you can use the :
 
 ```
-hooshang.icons.succses
+li.icons.succses
 ```
 ## if you want to sea all of the icons :
 
 ```
-console.log(hooshang.icons);
+console.log(li.icons);
 ```
 ---
 
@@ -57,10 +57,10 @@ console.log(hooshang.icons);
 
 ```
 
-hooshang.AlHoosh({theme:"custom",
+li.Alert({theme:"custom",
 	title:'succses',
 	message:"it was succsesful",
-	icon:hooshang.Icons.succses,
+	icon:li.Icons.succses,
 	type:"button",
 	color_icon:'green',
 	buttonMessage:'ali',
