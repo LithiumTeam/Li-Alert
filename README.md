@@ -36,18 +36,18 @@ Icons
 ```
 https://github.com/LithiumTeam/Li-Alert.git
 ```
-### the library files are in the HooshangAlert folder the Test Folder is just a test of it
+### the library files are in the LithiumAlert folder the Test Folder is just a test of it
 
 ## then add this link to the css file:
 
 ```
-<link rel="stylesheet" href="./the/path/to/LiAlert.css">
+<link rel="stylesheet" href="./the/path/to/LiAlert.min.css">
 ```
 
 ## then add the js file (Above of your js file):
 
 ```
-<script src="./the/path/to/LiAlert.js"></script>
+<script src="./the/path/to/LiAlert.min.js"></script>
 ```
 
 ### and now you can use it!
