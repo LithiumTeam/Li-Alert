@@ -4,7 +4,7 @@
 
 ## when you finished all of it now you can read this page
 
-## for creating a alert we must use : hooshang.AlHoosh()
+## for creating a alert we must use : li.Alert()
 
 ```
 li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:li.Icons.succses,type:"button",color_icon:'#17FD32',position:"center"})
@@ -24,7 +24,7 @@ li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:li.Icons
 
 ---
 
-## icon : the icon of your alert we have a list of icons in : hooshang.icons and if you want the succses one you can use the :
+## icon : the icon of your alert we have a list of icons in : li.icons and if you want the succses one you can use the :
 
 ```
 li.icons.succses
