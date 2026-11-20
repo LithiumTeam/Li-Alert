@@ -7,12 +7,12 @@
 ## for creating a alert we must use : li.Alert()
 
 ```
-li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:li.Icons.succses,type:"button",color_icon:'#17FD32',position:"center"})
+li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:"success",type:"button",color_icon:'#17FD32',position:"center"})
 ```
 
 # what the arguments do?:
 
-## theme : the theme of the alert we have to themes : light and dark and custom
+## theme : the theme of the alert we have to themes : ["light","dark","custom"]
 
 ---
 
@@ -24,11 +24,8 @@ li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:li.Icons
 
 ---
 
-## icon : the icon of your alert we have a list of icons in : li.icons and if you want the succses one you can use the :
+## icon : we have three icons for now : ["user","success","alert"]
 
-```
-li.icons.succses
-```
 ## if you want to sea all of the icons :
 
 ```
@@ -37,10 +34,11 @@ console.log(li.icons);
 ---
 
 ## type : we have to types one is button that you must click the button to the alert Disappear we also have a time type that you must say the time and when the time finishes it will Disappear
+## two types : ["button","time"]
 
 ---
 
-## color_icon : the colot of the icon
+## color_icon : the color of the icon
 
 ---
 
@@ -60,13 +58,14 @@ console.log(li.icons);
 li.Alert({theme:"custom",
 	title:'succses',
 	message:"it was succsesful",
-	icon:li.Icons.succses,
+	icon:"success",
 	type:"button",
 	color_icon:'green',
 	buttonMessage:'ali',
 	bg_color:'black',
 	text_color:'green',
-	border_button_color:'green'})
+	border_button_color:'green',
+	position:'center'})
 
 ```
 
