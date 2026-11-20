@@ -24,13 +24,8 @@ li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:"success
 
 ---
 
-## icon : we have three icons for now : ["user","success","alert"]
+## icon : we have three icons for now : ["user","success","info","github","error","question"]
 
-## if you want to sea all of the icons :
-
-```
-console.log(li.icons);
-```
 ---
 
 ## type : we have to types one is button that you must click the button to the alert Disappear we also have a time type that you must say the time and when the time finishes it will Disappear
