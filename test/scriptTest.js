@@ -1,7 +1,7 @@
 li.Alert({theme:"custom",
 	title:'succses',
 	message:"it was succsesful",
-	icon:"user",
+	icon:"success",
 	type:"button",
 	color_icon:'green',
 	buttonMessage:'click me!',

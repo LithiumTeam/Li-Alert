@@ -8,7 +8,12 @@ class Li{
 	    Alert({theme, title, message, icon, type, buttonMessage="click me",color_icon,time=2000,text_color=null,bg_color=null,border_button_color=null,position=null}) {
 		    try{
 
-	    		let Icons = {success:"<i class='fa-regular fa-circle-check li_alert_success'></i>",user:"<i class='fa-regular fa-circle-user li_alert_user'></i>",alert:"<i class='fa-solid fa-circle-exclamation li_alert_alert'></i>"};
+	    		let Icons = {success:"<i class='fa-regular fa-circle-check li_alert_success'></i>",
+				user:"<i class='fa-regular fa-circle-user li_alert_user'></i>",
+				info:"<i class='fa-solid fa-circle-exclamation li_alert_alert'></i>",
+				error:"<i class='fa-regular fa-circle-xmark'></i>",
+				question:"<i class='fa-regular fa-circle-question'></i>",
+				github:"<i class='fa-brands fa-github'></i>"	};
 			    if(position == "center"){
 				    document.querySelector(":root").style.setProperty("--li_alert_justify","center");
 				    document.querySelector(":root").style.setProperty("--li_alert_align","center");
