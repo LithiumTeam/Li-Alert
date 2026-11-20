@@ -24,7 +24,7 @@ li.Alert({theme:"dark",title:'succses',message:"it was succsesful",icon:"success
 
 ---
 
-## icon : we have three icons for now : ["user","success","info","github","error","question"]
+## icon : we have six icons for now : ["user","success","info","github","error","question"]
 
 ---
 
